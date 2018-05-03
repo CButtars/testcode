@@ -1,0 +1,54 @@
+/* Carson Buttars
+  Modified: March 23, 2018
+*/
+body {
+	background-image: url(../images/back_body.jpg);
+}
+
+.overwrite-title {
+	font-family: garamond, times, helvetica;
+	font-size: 1em;
+}
+
+.nav-bar {
+	font-family: verdana;
+}
+
+h1{
+	color: lightgrey;
+}
+
+h2{
+	font-family: comic-sans, times;
+	font-size: 42px;
+}
+
+h3{
+	font-family: helvetica;
+	font-size: 28px;
+}
+
+.italic{
+	font-style: italic;
+	text-decoration: underline;
+}
+
+iframe{
+	margin: 10px;
+	padding: 10px;
+}
+
+.centered{
+	margin: auto;
+	width: 50%;
+	padding: 10px;
+}
+
+.spaced{
+	padding-right: 30px;
+}
+
+ol{
+	font-family: helvetica;
+	font-size: 24px;
+}

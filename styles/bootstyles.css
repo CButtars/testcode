@@ -1,0 +1,66 @@
+/* Carson Buttars
+  Modified: March 23, 2018
+*/
+body {
+	background-color: #555555;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+	padding: 4px;
+	margin: 4px;
+	font-size: 20px;
+}
+a:hover{
+	color: white;
+}
+
+.common{
+	background-image: url(../images/grey-back.jpg);
+	border: solid 2px white;
+	padding: 2px;
+	margin: 2px;
+	position: absolute;
+}
+
+.right-align{
+	padding: 2px;
+	padding-right: 250px;
+	margin: 2px;
+	position: relative;
+	text-align: right;
+}
+
+.header{
+	left: 5px;
+	right: 5px;
+	height: 100px;
+	top: 5px;
+	z-index: 2;
+}
+.foot{
+	font-size: 10px;
+	color: #444444;
+	left: 5px;
+	right: 5px;
+	height: 50px;
+	bottom: 5px;
+	position: fixed;
+	text-align: center;
+}
+.mainbody{
+	border-left: 2px black solid;
+	border-right: 2px black solid;
+	left: 5px;
+	right: 5px;
+	top: 114px;
+	bottom: 64px;
+	overflow: auto;
+}
+.centered{
+	text-align: center;
+}
+
+.tableauPlaceholder{
+	padding-left: 50px;
+}
